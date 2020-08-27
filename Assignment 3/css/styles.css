@@ -74,8 +74,7 @@ nav div a img{
 .slider-menu{
 	height: 300px;
 	width: 350px;
-	opacity: 0.7;
-	background-color: white;
+	background-color: rgba(152, 152, 152, 0.7);;
 	padding: 0px 20px 0px 20px;
 	position: absolute;
 	left: 200px;
@@ -111,16 +110,26 @@ section{
 	float: left;
 }
 
+.option-1 .fa, .option-2 .fa, .option-3 .fa, .option-4 .fa{
+	border-radius: 50%;
+}
+
 .option-1 .fa{
 	color: #9D7CCF;
 }
 
 .option-2 .fa{
-	color: #40B290;
+	color: white;
+	background-color: #40B290;
+	width: 50px;
+	padding: 5px;
 }
 
 .option-3 .fa{
-	color: #24841D;
+	color: white;
+	background-color: #24841D;
+	width: 40px;
+	padding: 13px;
 }
 .option-4 .fa{
 	color: #8BE784;
