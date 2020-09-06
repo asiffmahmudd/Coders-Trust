@@ -44,6 +44,15 @@ nav div a img{
 	display: inline-block;
 }
 
+.nav-menu ul li:hover{
+	background-color: grey;
+}
+
+.nav-menu ul a{
+	text-decoration: none;	
+	color: black; 
+}
+
 .menu-item li{
 	float: left;
 	margin-left: 20px;
@@ -92,6 +101,10 @@ button{
 	color: white;
 	box-shadow: 2px 1px 0px grey;
 	border-radius: 8px;
+}
+
+button:hover{
+	background-color: green;
 }
 
 
@@ -230,14 +243,20 @@ section{
 	color: white;
 }
 
+.section-3{
+	background-color: grey;
+}
+
 .mention{
 	background-color: grey;
 	width: 100%;
+	margin: 0 auto;
 	height: 270px;
 	float: left;
 }
 .mention-header{
 	text-align: center;
+	width: 100%;	
 }
 .mention-item{
 	width: 20%;
@@ -245,6 +264,7 @@ section{
 }
 .mention-item h1{
 	color: white;
+	width: 80%;
 }
 
 .copy{
