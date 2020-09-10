@@ -30,8 +30,11 @@ header{
 	color: #b0b0b0;
 }
 
-.menu a:hover{
-	background-color: lightblue;
+.menu li:hover{
+	background-color: #99c50a;
+	color: white;
+	padding: 20px;
+	transition: 0.4s;
 }
 
 section{
@@ -81,9 +84,10 @@ section{
 }
 
 .banner button:hover{
-	background-color: green;
+	background-color: lightgreen;
+	color: black;
+	transition: 0.8s;
 }
-
 .banner-content{
 	margin-top: 170px;
 }
@@ -167,6 +171,7 @@ section{
 
 .properties button:hover{
 	background-color: darkblue;
+	transition: 0.8s;
 }
 
 .buyers button{
@@ -175,6 +180,7 @@ section{
 
 .buyers button:hover{
 	background-color: green;
+	transition: 0.8s;
 }
 
 .icon{
@@ -223,6 +229,7 @@ section{
 .feat-btn button:hover{
 	background-color: grey;
 	color: white;
+	transition: 0.8s;
 }
 
 .row{
