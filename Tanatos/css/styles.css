@@ -1,0 +1,232 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background: url(../img/banner.jpg) no-repeat center;
+	background-size: cover;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+
+header::after{
+	content: '';
+	background-color: #222529;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.menu{
+	color: white;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+.navbar-toggler{
+	border: none;
+}
+
+.banner-content{
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 170px;
+	padding-bottom: 50px;
+	color: white;
+}
+
+.banner-content h1{
+	font-weight: 900 !important;
+}
+
+.banner-content span{
+	color: #f7600e;
+}
+
+.banner-content p{
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 65px;
+}
+
+.banner-content button{
+	color: white;
+	border: 1px solid white;
+	text-align: center;
+	width: 160px;
+	margin: 10px;
+	margin-bottom: 185px;
+}
+
+.banner-content button:hover{
+	background-color: #f7600e;
+	border: 1px solid #f7600e;
+	transition: 0.4s;
+	color: white;
+}
+
+.banner-content i{
+	border: 2px solid white;
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.services{
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.services img{
+	padding: 20px;
+	border: 1px solid #c5c7ca;
+	border-radius: 50%;
+	width: 100px;
+	height: 120px;
+}
+
+.services h6{
+	margin: 30px 0px;
+}
+
+.services p{
+	color: grey;
+}
+
+.subscribe{
+	background: url(../img/banner-2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px 0px;
+	position: relative;
+	z-index: 1;
+}
+
+.subscribe::after{
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #222529;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.form-inline{
+	margin: 0 auto;
+}
+
+#email{
+	width: 100%;
+}
+
+
+.subscribe .btn{
+	width: 100%;
+	background-color: #f7600e;
+	border:1px solid #f7600e;
+}
+
+.subscribe .btn:hover{
+	border: 1px solid white;
+	background-color: transparent;
+	transition: 0.2s;
+}
+
+.portfolio{
+	padding: 100px 0px;
+	text-align: center;
+}
+
+.portfolio h2{
+	font-weight: bold;
+}
+
+.works-header{
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 100px 0px;
+}
+
+.works-header span{
+	color: #f7600e;
+}
+
+.works-header p{
+	color: grey;
+}
+
+.over{
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	background-color: rgb(247,96,14, 0.9);
+	color: white;
+	width: 360px;
+	overflow: hidden;
+	height: 0px;
+	border-radius: 10px;
+	top: 0;
+	left: 0;
+	transition: 0.6s;
+}
+
+.over:hover .overlay{
+	height: 100%;
+}
+
+.overlay h3{
+	margin-top: 90px;
+	font-size: 25px;
+}
+
+.overlay p{
+	font-size: 14px;
+	margin: 20px 40px 40px 40px;
+}
+
+.overlay button{
+	width: 200px;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+	margin-bottom: 40px;
+}
+
+.overlay button:hover{
+	background-color: white;
+	color: rgb(247,96,14);
+	transition: 0.4s;
+}
+
+.portfolio .final-btn{
+	margin-top: 100px;
+}
+
+.final-btn button{
+	border: 1px solid #c5c7ca;
+	border-radius: 8px;
+	width: 200px;
+	color: #474f57;
+}
+
+.final-btn button:hover{
+	background-color: rgb(247,96,14);
+	border: none;
+	transition: 0.4s;
+	color:white;
+}
