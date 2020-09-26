@@ -27,6 +27,14 @@ a{
 	font-weight: bold;
 }
 
+.btn:hover{
+	-webkit-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	-moz-box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.57);
+	color: white;
+	transition: 0.4s;
+}
+
 .img-center{
 	display: block;
 	margin: 0 auto;
