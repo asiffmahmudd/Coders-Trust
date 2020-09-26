@@ -209,6 +209,10 @@ header h1{
 	color: white;
 }
 
+.service li{
+	list-style: none;
+}
+
 /* footer */
 
 footer{
